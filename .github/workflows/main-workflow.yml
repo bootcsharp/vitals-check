@@ -1,4 +1,4 @@
-name: Telco ColorCoder 
+name: Vitals Checker
 
 on:
   push:
@@ -35,4 +35,5 @@ jobs:
 
     # Run the app
     - name: Run the App
-      run: checker.exe 
+      shell: cmd
+      run: call run.bat
